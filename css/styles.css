@@ -175,10 +175,10 @@ h6 {
 .nav-item {
     display: flex;
     flex-direction: column;
-    position: relative;
 }
 
 .nav-link {
+    position: relative;
     line-height: 1.5;
     letter-spacing: .02em;
     font-weight: 500;
@@ -200,10 +200,10 @@ h6 {
 
 .address-item {
     display: flex;
-    position: relative;
 }
 
 .address-link {
+    position: relative;
     line-height: 1.5;
     letter-spacing: .03em;
     color: #434455;
@@ -224,18 +224,21 @@ h6 {
 .address-link:focus::after {
     content: "";
     position: absolute;
-    bottom: 0;
+    bottom: -1px;
     left: 0;
     height: 4px;
     width: 100%;
     border-radius: 2px;
     background-color: #404BBF;
 }
-
+.is-active{
+    color: #404BBF;
+    position: relative;
+}
 .is-active::after{
     content: "";
     position: absolute;
-    bottom: 0;
+    bottom: -1px;
     left: 0;
     height: 4px;
     width: 100%;
