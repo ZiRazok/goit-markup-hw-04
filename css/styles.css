@@ -306,12 +306,9 @@ h6 {
     margin-bottom: 8px;
 }
 
-.organization-icon {
-    height: 64px;
-    width: 64px;
-}
+.organization-icon {}
 
-.organization-section-heading{
+.organization-section-heading {
     margin-bottom: 8px;
 }
 
@@ -373,8 +370,6 @@ h6 {
 
 .team-container-icon {
     position: absolute;
-    width: 16px;
-    height: 16px;
     fill: #F4F4FD;
 }
 
@@ -512,8 +507,6 @@ h6 {
 
 .footer-social-icon {
     position: absolute;
-    width: 24px;
-    height: 24px;
     fill: #F4F4FD;
 }
 
