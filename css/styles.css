@@ -235,7 +235,7 @@ h6 {
 
 
 
-/* Section Title */
+/* Section Title (1) */
 .section-title {
     max-width: 1440px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/section-title-bg.jpg);
@@ -278,7 +278,7 @@ h6 {
 
 
 
-/* Section Organization */
+/* Section Organization (2) */
 .section-organization {
     min-width: 100%;
 }
@@ -292,7 +292,6 @@ h6 {
     max-width: calc((100% - 3 * 24px) / 4);
     display: flex;
     flex-direction: column;
-    gap: 8px;
 }
 
 .organization-container-icon {
@@ -304,6 +303,7 @@ h6 {
     background-color: #F4F4FD;
     border: 1px solid #8E8F99;
     border-radius: 4px;
+    margin-bottom: 8px;
 }
 
 .organization-icon {
@@ -311,9 +311,13 @@ h6 {
     width: 64px;
 }
 
+.organization-section-heading{
+    margin-bottom: 8px;
+}
 
 
-/* Section Our Team  */
+
+/* Section Our Team (3) */
 .section-team {
     max-width: 100%;
     background-color: #F4F4FD;
@@ -381,7 +385,7 @@ h6 {
 
 
 
-/* Section Our portfolio */
+/* Section Our portfolio (4) */
 .section-portfolio {
     max-width: 100%;
 }
